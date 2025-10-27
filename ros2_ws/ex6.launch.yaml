@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+launch:
+  - node:
+      pkg: "ex6"
+      exec: "listener"
+      name: "listener"
+
+  - node:
+      pkg: "ex6"
+      exec: "talker"
+      name: "talker"
+      param:
+      -
+        name: "correct_computer_name"
+        value: "meow"
+
