@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+launch:
+  - node:
+      pkg: "ex1"
+      exec: "listener"
+      name: "listener"
+
+  - node:
+      pkg: "ex1"
+      exec: "talker"
+      name: "talker"
+
