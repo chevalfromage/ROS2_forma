@@ -16,23 +16,21 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
-from ex4.msg import Num
+#from ex4.msg import Num
 
 class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(Num, 'topic', 10)
+        self.publisher_ = self.create_publisher(String, 'topic', 10)
         timer_period = 1  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
     def timer_callback(self):
         msg = String()
-        n = Num()
-        n.num = 1
-        msg.data = 'Hello World: %d' % n.num
-        self.publisher_.publish(n)
+        msg.data = 'Hello World: %s' % msg.data
+        self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
         self.i += 1
 
