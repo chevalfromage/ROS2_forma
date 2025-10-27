@@ -1,8 +1,0 @@
-{
-  "package_name": "srv",
-  "non_idl_tuples": [
-    "/home/student/Documents/formation_ros2/ros2_ws/src/srv:msg/Num.msg",
-    "/home/student/Documents/formation_ros2/ros2_ws/src/srv:msg/Sphere.msg",
-    "/home/student/Documents/formation_ros2/ros2_ws/src/srv:srv/AddThreeInts.srv"
-  ]
-}

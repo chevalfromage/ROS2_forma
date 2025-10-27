@@ -1,9 +1,0 @@
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/uninstall.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/srv_uninstall.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/test.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/edit_cache.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/rebuild_cache.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/list_install_components.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/install.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/install/local.dir
-/home/student/Documents/formation_ros2/ros2_ws/src/build/srv/CMakeFiles/install/strip.dir
