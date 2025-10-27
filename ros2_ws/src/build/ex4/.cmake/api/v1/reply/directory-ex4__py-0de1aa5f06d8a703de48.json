@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ex4__py",
+		"source" : "/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4/ex4__py"
+	}
+}

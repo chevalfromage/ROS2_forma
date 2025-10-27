@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/student/Documents/formation_ros2/ros2_ws/src/build/srv
+-- Install configuration: ""
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/ament_index/resource_index/package_run_dependencies/srv
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/ament_index/resource_index/parent_prefix_path/srv
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/environment/ament_prefix_path.sh
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/environment/ament_prefix_path.dsv
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/environment/path.sh
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/environment/path.dsv
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/local_setup.bash
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/local_setup.sh
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/local_setup.zsh
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/local_setup.dsv
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.dsv
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/ament_index/resource_index/packages/srv
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/cmake/srvConfig.cmake
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/cmake/srvConfig-version.cmake
+-- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.xml

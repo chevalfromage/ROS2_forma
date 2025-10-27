@@ -1,0 +1,26 @@
+[0.710s] Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/ex1': PYTHONPATH=/home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex1 build --build-base /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/build install --record /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/install.log --single-version-externally-managed install_data
+[0.971s] running egg_info
+[0.972s] writing ../build/ex1/ex1.egg-info/PKG-INFO
+[0.972s] writing dependency_links to ../build/ex1/ex1.egg-info/dependency_links.txt
+[0.972s] writing entry points to ../build/ex1/ex1.egg-info/entry_points.txt
+[0.973s] writing requirements to ../build/ex1/ex1.egg-info/requires.txt
+[0.973s] writing top-level names to ../build/ex1/ex1.egg-info/top_level.txt
+[0.974s] reading manifest file '../build/ex1/ex1.egg-info/SOURCES.txt'
+[0.974s] adding license file 'LICENSE'
+[0.975s] writing manifest file '../build/ex1/ex1.egg-info/SOURCES.txt'
+[0.975s] running build
+[0.975s] running build_py
+[0.975s] copying ex1/publisher_member_function.py -> /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/build/lib/ex1
+[0.976s] running install
+[0.976s] running install_lib
+[0.977s] copying /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/build/lib/ex1/publisher_member_function.py -> /home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages/ex1
+[0.977s] byte-compiling /home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages/ex1/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.978s] running install_data
+[0.978s] running install_egg_info
+[0.980s] removing '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages/ex1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.980s] Copying ../build/ex1/ex1.egg-info to /home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages/ex1-0.0.0-py3.10.egg-info
+[0.981s] running install_scripts
+[0.999s] Installing listener script to /home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/ex1
+[0.999s] Installing talker script to /home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/ex1
+[0.999s] writing list of installed files to '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/install.log'
+[1.021s] Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/ex1' returned '0': PYTHONPATH=/home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex1 build --build-base /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/build install --record /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/install.log --single-version-externally-managed install_data

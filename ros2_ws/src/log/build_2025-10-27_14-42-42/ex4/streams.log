@@ -1,0 +1,230 @@
+[0.272s] Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4 -- -j8 -l8
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_generator_c[0m
+[0.330s] [  2%] Built target ex4__cpp
+[0.334s] [ 12%] Built target ex4__rosidl_generator_c
+[0.341s] [ 12%] Built target ament_cmake_python_copy_ex4
+[0.349s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_cpp[0m
+[0.349s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_introspection_cpp[0m
+[0.349s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_fastrtps_cpp[0m
+[0.350s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_introspection_c[0m
+[0.351s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_fastrtps_c[0m
+[0.352s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_c[0m
+[0.373s] [ 34%] Built target ex4__rosidl_typesupport_introspection_c
+[0.374s] [ 34%] Built target ex4__rosidl_typesupport_introspection_cpp
+[0.374s] [ 44%] Built target ex4__rosidl_typesupport_fastrtps_cpp
+[0.374s] [ 55%] Built target ex4__rosidl_typesupport_fastrtps_c
+[0.374s] [ 65%] Built target ex4__rosidl_typesupport_cpp
+[0.380s] [ 76%] Built target ex4__rosidl_typesupport_c
+[0.402s] [ 76%] Built target ex4
+[0.423s] [ 78%] Built target ex4__py
+[0.434s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_generator_py[0m
+[0.450s] [ 87%] Built target ex4__rosidl_generator_py
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_c__pyext[0m
+[0.464s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_introspection_c__pyext[0m
+[0.464s] [35m[1mConsolidate compiler generated dependencies of target ex4__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.478s] [ 91%] Built target ex4__rosidl_typesupport_c__pyext
+[0.479s] [ 95%] Built target ex4__rosidl_typesupport_fastrtps_c__pyext
+[0.483s] [100%] Built target ex4__rosidl_typesupport_introspection_c__pyext
+[0.633s] running egg_info
+[0.634s] writing ex4.egg-info/PKG-INFO
+[0.634s] writing dependency_links to ex4.egg-info/dependency_links.txt
+[0.634s] writing top-level names to ex4.egg-info/top_level.txt
+[0.638s] reading manifest file 'ex4.egg-info/SOURCES.txt'
+[0.638s] writing manifest file 'ex4.egg-info/SOURCES.txt'
+[0.663s] [100%] Built target ament_cmake_python_build_ex4_egg
+[0.676s] Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4 -- -j8 -l8
+[0.686s] Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4
+[0.694s] -- Install configuration: ""
+[0.694s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ament_index/resource_index/rosidl_interfaces/ex4
+[0.694s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4
+[0.694s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg
+[0.694s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/rosidl_generator_c__visibility_control.h
+[0.694s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/sphere.h
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__type_support.h
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__struct.h
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__functions.c
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__functions.c
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__functions.h
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__functions.h
+[0.695s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__struct.h
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__type_support.h
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/num.h
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/add_three_ints.h
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__type_support.h
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__functions.c
+[0.696s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__functions.h
+[0.697s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__struct.h
+[0.697s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/library_path.sh
+[0.697s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/library_path.dsv
+[0.697s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_generator_c.so
+[0.698s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_generator_c.so" to ""
+[0.698s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4
+[0.698s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg
+[0.698s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail
+[0.698s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[0.698s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.698s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv
+[0.699s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail
+[0.699s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[0.699s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_fastrtps_c.so
+[0.699s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_fastrtps_c.so" to ""
+[0.699s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4
+[0.699s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg
+[0.699s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/sphere.hpp
+[0.700s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.700s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail
+[0.700s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__traits.hpp
+[0.700s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__struct.hpp
+[0.700s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__type_support.hpp
+[0.700s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__type_support.hpp
+[0.700s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__builder.hpp
+[0.701s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__traits.hpp
+[0.701s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__builder.hpp
+[0.701s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__struct.hpp
+[0.701s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/num.hpp
+[0.701s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv
+[0.701s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/add_three_ints.hpp
+[0.701s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail
+[0.701s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__struct.hpp
+[0.702s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__builder.hpp
+[0.702s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__traits.hpp
+[0.702s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__type_support.hpp
+[0.702s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4
+[0.702s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg
+[0.702s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail
+[0.702s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[0.702s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[0.703s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/dds_fastrtps
+[0.703s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.703s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv
+[0.703s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail
+[0.703s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.703s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/dds_fastrtps
+[0.703s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_fastrtps_cpp.so
+[0.704s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_fastrtps_cpp.so" to ""
+[0.704s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4
+[0.704s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg
+[0.704s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail
+[0.704s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__type_support.c
+[0.704s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__rosidl_typesupport_introspection_c.h
+[0.704s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[0.704s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__type_support.c
+[0.704s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.704s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv
+[0.705s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail
+[0.705s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[0.705s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__type_support.c
+[0.705s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_introspection_c.so
+[0.705s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_introspection_c.so" to ""
+[0.705s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_c.so
+[0.706s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_c.so" to ""
+[0.706s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4
+[0.706s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg
+[0.706s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail
+[0.706s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__type_support.cpp
+[0.706s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[0.706s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[0.706s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/msg/detail/num__type_support.cpp
+[0.707s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv
+[0.707s] -- Up-to-date: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail
+[0.707s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.707s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/include/ex4/ex4/srv/detail/add_three_ints__type_support.cpp
+[0.707s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_introspection_cpp.so
+[0.707s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_introspection_cpp.so" to ""
+[0.707s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_cpp.so
+[0.708s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_typesupport_cpp.so" to ""
+[0.708s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/pythonpath.sh
+[0.708s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/pythonpath.dsv
+[0.708s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4-0.0.0-py3.10.egg-info
+[0.708s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4-0.0.0-py3.10.egg-info/top_level.txt
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4-0.0.0-py3.10.egg-info/PKG-INFO
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/_ex4_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/__init__.py
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg
+[0.709s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/_sphere_s.c
+[0.710s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/__init__.py
+[0.710s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/_num_s.c
+[0.710s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/_num.py
+[0.710s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/_sphere.py
+[0.710s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/_ex4_s.ep.rosidl_typesupport_introspection_c.c
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/libex4__rosidl_generator_py.so
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/srv
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/srv/__init__.py
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/srv/_add_three_ints.py
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/srv/_add_three_ints_s.c
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/_ex4_s.ep.rosidl_typesupport_c.c
+[0.711s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.752s] Listing '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4'...
+[0.752s] Compiling '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/__init__.py'...
+[0.752s] Listing '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg'...
+[0.752s] Compiling '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/__init__.py'...
+[0.752s] Compiling '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/_num.py'...
+[0.752s] Compiling '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/msg/_sphere.py'...
+[0.752s] Listing '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/srv'...
+[0.752s] Compiling '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/srv/__init__.py'...
+[0.752s] Compiling '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/srv/_add_three_ints.py'...
+[0.756s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.757s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.757s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.757s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.758s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.758s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/local/lib/python3.10/dist-packages/ex4/ex4_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.758s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_generator_py.so
+[0.759s] -- Set runtime path of "/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/libex4__rosidl_generator_py.so" to ""
+[0.759s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/msg/Num.idl
+[0.759s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/msg/Sphere.idl
+[0.759s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/srv/AddThreeInts.idl
+[0.759s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/msg/Num.msg
+[0.760s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/msg/Sphere.msg
+[0.760s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/srv/AddThreeInts.srv
+[0.760s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/srv/AddThreeInts_Request.msg
+[0.760s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/srv/AddThreeInts_Response.msg
+[0.760s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ament_index/resource_index/package_run_dependencies/ex4
+[0.761s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ament_index/resource_index/parent_prefix_path/ex4
+[0.761s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/ament_prefix_path.sh
+[0.761s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/ament_prefix_path.dsv
+[0.761s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/path.sh
+[0.762s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/environment/path.dsv
+[0.762s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/local_setup.bash
+[0.762s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/local_setup.sh
+[0.762s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/local_setup.zsh
+[0.763s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/local_setup.dsv
+[0.763s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.dsv
+[0.763s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ament_index/resource_index/packages/ex4
+[0.763s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_generator_cExport.cmake
+[0.764s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_generator_cExport-noconfig.cmake
+[0.764s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_typesupport_fastrtps_cExport.cmake
+[0.764s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.764s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_generator_cppExport.cmake
+[0.765s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.765s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.765s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_introspection_cExport.cmake
+[0.765s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.766s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_cExport.cmake
+[0.766s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_cExport-noconfig.cmake
+[0.766s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_introspection_cppExport.cmake
+[0.766s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.767s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_cppExport.cmake
+[0.767s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4__rosidl_typesupport_cppExport-noconfig.cmake
+[0.767s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_generator_pyExport.cmake
+[0.767s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/export_ex4__rosidl_generator_pyExport-noconfig.cmake
+[0.768s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/rosidl_cmake-extras.cmake
+[0.768s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.768s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.768s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ament_cmake_export_libraries-extras.cmake
+[0.769s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ament_cmake_export_targets-extras.cmake
+[0.769s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.769s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.769s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4Config.cmake
+[0.769s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/cmake/ex4Config-version.cmake
+[0.770s] -- Installing: /home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.xml
+[0.772s] Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4

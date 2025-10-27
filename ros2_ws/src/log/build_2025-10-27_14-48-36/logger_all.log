@@ -1,0 +1,248 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bdc94288040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bdc94247940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bdc94247940>>, mixin_verb=('build',))
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.286s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/Documents/formation_ros2/ros2_ws/src'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(ex1) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'ex1' with type 'ros.ament_python' and name 'ex1'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(ex4) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'ex4' with type 'ros.ament_cmake' and name 'ex4'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(srv) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'srv' with type 'ros.ament_cmake' and name 'srv'
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.333s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/student/Documents/formation_ros2/ros2_ws/src/install
+[0.333s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/student/turtlebot3_ws/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 431 installed packages in /opt/ros/humble
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'ex1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1', 'merge_install': False, 'path': '/home/student/Documents/formation_ros2/ros2_ws/src/ex1', 'symlink_install': False, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'ex4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'ex4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4', 'merge_install': False, 'path': '/home/student/Documents/formation_ros2/ros2_ws/src/ex4', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'srv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'srv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Documents/formation_ros2/ros2_ws/src/build/srv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv', 'merge_install': False, 'path': '/home/student/Documents/formation_ros2/ros2_ws/src/srv', 'symlink_install': False, 'test_result_base': None}
+[0.388s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.389s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/Documents/formation_ros2/ros2_ws/src/ex1' with build type 'ament_python'
+[0.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex1', 'ament_prefix_path')
+[0.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/hook/ament_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/hook/ament_prefix_path.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/hook/ament_prefix_path.sh'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Documents/formation_ros2/ros2_ws/src/ex4' with build type 'ament_cmake'
+[0.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Documents/formation_ros2/ros2_ws/src/ex4'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Documents/formation_ros2/ros2_ws/src/srv' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Documents/formation_ros2/ros2_ws/src/srv'
+[0.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.676s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/Documents/formation_ros2/ros2_ws/src/ex1'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4 -- -j8 -l8
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/ros2_ws/src/build/srv -- -j8 -l8
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/ros2_ws/src/build/srv -- -j8 -l8
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/formation_ros2/ros2_ws/src/build/srv
+[0.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv)
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/formation_ros2/ros2_ws/src/build/srv
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv' for CMake module files
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv' for CMake config files
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv', 'cmake_prefix_path')
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/hook/cmake_prefix_path.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/hook/cmake_prefix_path.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/hook/cmake_prefix_path.sh'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/bin'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/lib/pkgconfig/srv.pc'
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/lib/python3.10/site-packages'
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/bin'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.ps1'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.sh'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.bash'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.zsh'
+[0.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/colcon-core/packages/srv)
+[0.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv)
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv' for CMake module files
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv' for CMake config files
+[0.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv', 'cmake_prefix_path')
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/hook/cmake_prefix_path.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/hook/cmake_prefix_path.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/hook/cmake_prefix_path.sh'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/bin'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/lib/pkgconfig/srv.pc'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/lib/python3.10/site-packages'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/bin'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.sh'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/srv/package.zsh'
+[0.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Documents/formation_ros2/ros2_ws/src/install/srv/share/colcon-core/packages/srv)
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4 -- -j8 -l8
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4
+[1.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Documents/formation_ros2/ros2_ws/src/ex1': PYTHONPATH=/home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex1 build --build-base /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/build install --record /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/install.log --single-version-externally-managed install_data
+[1.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex4)
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4' for CMake module files
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/build/ex4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Documents/formation_ros2/ros2_ws/src/build/ex4
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4' for CMake config files
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex4', 'cmake_prefix_path')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/cmake_prefix_path.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/cmake_prefix_path.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/cmake_prefix_path.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib'
+[1.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex4', 'ld_library_path_lib')
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/ld_library_path_lib.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/ld_library_path_lib.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/ld_library_path_lib.sh'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/bin'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/pkgconfig/ex4.pc'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/python3.10/site-packages'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/bin'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.zsh'
+[1.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/colcon-core/packages/ex4)
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex4)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4' for CMake module files
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex4', 'cmake_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib'
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex4', 'ld_library_path_lib')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/ld_library_path_lib.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/ld_library_path_lib.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/hook/ld_library_path_lib.sh'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/bin'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/pkgconfig/ex4.pc'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/lib/python3.10/site-packages'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/bin'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.bash'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/ex4/package.zsh'
+[1.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Documents/formation_ros2/ros2_ws/src/install/ex4/share/colcon-core/packages/ex4)
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1' for CMake module files
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Documents/formation_ros2/ros2_ws/src/ex1' returned '0': PYTHONPATH=/home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex1 build --build-base /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/build install --record /home/student/Documents/formation_ros2/ros2_ws/src/build/ex1/install.log --single-version-externally-managed install_data
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1' for CMake config files
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/bin'
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/pkgconfig/ex1.pc'
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/lib/python3.10/site-packages'
+[1.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex1', 'pythonpath')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/hook/pythonpath.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/hook/pythonpath.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/hook/pythonpath.sh'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/bin'
+[1.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex1)
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/package.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/package.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/package.sh'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/package.bash'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/ex1/package.zsh'
+[1.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Documents/formation_ros2/ros2_ws/src/install/ex1/share/colcon-core/packages/ex1)
+[1.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.463s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.468s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.479s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/formation_ros2/ros2_ws/src/install/local_setup.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Documents/formation_ros2/ros2_ws/src/install/_local_setup_util_ps1.py'
+[1.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/formation_ros2/ros2_ws/src/install/setup.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/formation_ros2/ros2_ws/src/install/local_setup.sh'
+[1.484s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Documents/formation_ros2/ros2_ws/src/install/_local_setup_util_sh.py'
+[1.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/formation_ros2/ros2_ws/src/install/setup.sh'
+[1.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/formation_ros2/ros2_ws/src/install/local_setup.bash'
+[1.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/formation_ros2/ros2_ws/src/install/setup.bash'
+[1.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Documents/formation_ros2/ros2_ws/src/install/local_setup.zsh'
+[1.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Documents/formation_ros2/ros2_ws/src/install/setup.zsh'
